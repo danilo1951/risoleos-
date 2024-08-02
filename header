@@ -27,7 +27,22 @@
 .lista-menu {
     display: none;
     position: absolute;
+    top: 100%;
 } 
 
-.container__botão:checked~, menu{
+.container__botão:checked~.lista-menu{
     display: block; 
+}
+
+.lista-menu_titulo, 
+.lista-menu_item {
+    padding: 1em,
+    background-color: var(--branco);
+
+}
+.lista-menu_titulo, 
+.lista-menu_item {
+    padding: 1em,
+    background-color: var(--branco);
+
+}
